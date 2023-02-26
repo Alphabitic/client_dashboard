@@ -128,7 +128,7 @@ function App() {
             <GlobalStyles styles={{ html: { WebkitFontSmoothing: "auto" } }} />
             <RefineSnackbarProvider>
                 <Refine
-                    dataProvider={dataProvider("https://zola-dashboard.onrender.com//api/v1")}
+                    dataProvider={dataProvider("https://zola-dashboard.onrender.com/api/v1")}
                     notificationProvider={notificationProvider}
                     ReadyPage={ReadyPage}
                     catchAll={<ErrorComponent />}
